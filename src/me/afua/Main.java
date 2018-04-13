@@ -85,7 +85,7 @@ public class Main {
         System.out.println("Enter ISBN number:");
         isbn = sc.nextLine();
 
-        Book b = new Book(title, author, yearPub, isbn);
+        Book b = new Book(title, author, isbn, yearPub);
         b.setId(id);
 
         return b;
