@@ -7,7 +7,7 @@ public class Book {
     private String title;
     private String author;
     private String isbn;
-    private String yearPub;
+    private String yearPub; //can also be a long, int or Year, if you have validation.
     private boolean borrowed;
 
     public Book() {
